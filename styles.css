@@ -48,7 +48,7 @@ header {
 }
 .menu {  
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: left;
   color: black;
   display: none;
