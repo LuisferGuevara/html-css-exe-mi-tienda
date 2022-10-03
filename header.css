@@ -1,0 +1,205 @@
+/* HEADER*/
+html {
+    box-sizing: border-box;
+}
+body {
+    max-width: 1350px;
+    margin: 0 auto;
+  
+  }
+header {
+    background-color: aqua;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+  /*FIRST BLOCK ON HEADER - Dropdown Menu */
+.first__box{
+    background-color: firebrick;
+    width: 33%;
+    align-items: center;
+}  
+.drop
+  /* .first__box {
+    background-color: rebeccapurple;
+    display: flex;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 20px;
+  }
+  .dropdow__box li {
+    display: inline;
+    justify-content: flex-start;
+    position: relative;
+    list-style: none;
+  }
+  .dropdow__box a {
+    text-decoration: none;
+    color: black;
+  }
+  .dropdow__box span {
+    color: lightgrey;
+    padding-right: 10px;
+    border-right: 1px solid;
+    font-size: 15px;
+  }
+  .menu {  
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: black;
+    display: none;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    padding: 0.6em;
+  }
+  .menu li {
+    margin-bottom: 4px;
+  }
+  .menu span {
+    color: lightgrey;
+  }
+  .menu li a:hover {
+    font-weight: bold;
+    color: black;
+  }
+  .menu a:hover {
+    font-weight: bold;
+  }
+  .menu:hover, .dropdow__box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: black;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    padding: 0.6em;
+  }
+  
+  .dropdow__list{
+    background-color:aquamarine
+  }
+  
+  #man-section {
+    border: none;
+    justify-self: flex-start;
+  }
+  
+  #call-to-promos {
+    color: red;
+    font-size: 20px;
+    border: none;
+  }
+   */
+  /*SECOND BLOCK ON HEADER*/
+  
+  .main-logo {
+    background-color: gold;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+  }
+  h1 {
+    align-self: center;
+    font-size: 55px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    position: absolute;
+  }
+  .breadcrumbs {
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 20px;
+  }
+  .breadcrumbs li,
+  .breadcrumbs a {
+    display: inline;
+    text-decoration: none;
+    color: lightgrey;
+    margin-right: 0.3em;
+  }
+  
+  .breadcrumbs__list i {
+    color:lightgray;
+    font-size: 10px;
+  }
+  
+  
+  /*THIRD BLOCK ON HEADER */
+  .primary-nav {
+    background-color: chocolate;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    position: relative;
+  }
+  .search-on-web {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    right: 10px;
+    width: 350px;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  .search-on-web a {
+    color: black;
+  }
+  #search {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    text-align: left;
+    padding: 0.3em 1.3em;
+    text-align: left;
+    margin-right: 5px;
+    width: 280px;
+  }
+  #glass {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .filters {
+    display: flex;
+    width: 320px;
+    height: 50px;
+    justify-content: space-around;
+    align-self: flex-end;
+    position: absolute;
+    right: 5px;
+    top: 80px;
+  }
+  .view-select {
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+  }
+  .card-display {
+    display: flex;
+  
+    width: 25%;
+    justify-content: space-between;
+  }
+  #select-view-4-columns {
+    color: green;
+  }
+  .filters select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+  }

@@ -83,6 +83,10 @@ header {
   padding: 0.6em;
 }
 
+.dropdow__list{
+  background-color:aquamarine
+}
+
 #man-section {
   border: none;
   justify-self: flex-start;
@@ -202,7 +206,7 @@ h1 {
   width: 92%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(auto-fit, minmax(235.5px, 1fr));
 }
 .card {
   text-align: center;
