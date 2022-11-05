@@ -30,6 +30,7 @@ header {
   padding: 30px;
   font-size: 20px;
 }
+
 .dropdow__box li {
   display: inline;
   justify-content: flex-start;
@@ -141,13 +142,14 @@ h1 {
   display: flex;
   text-align: center;
   position: relative;
+
 }
 .search-on-web {
   position: absolute;
   top: 25px;
   display: flex;
   right: 10px;
-  width: 350px;
+  width: 80%;
   justify-content: space-between;
   font-size: 18px;
 }
@@ -162,7 +164,7 @@ h1 {
   padding: 0.3em 1.3em;
   text-align: left;
   margin-right: 5px;
-  width: 280px;
+  width: 100%;
 }
 #glass {
   position: absolute;
@@ -397,4 +399,28 @@ hr {
 #link-to-more-clothes {
   margin-left: 110px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+  header{
+  display: flex;
+  justify-content: space-between;
+  }
+  .first__box{
+    display: none;
+  }
+  .dropdow__box{
+    display: none;
+  }
+  .main-logo{
+    width: 50%;
+    display: flex;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  .primary-nav{
+width: 50%;
+  }
+  
 }
